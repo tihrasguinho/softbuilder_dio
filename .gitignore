@@ -16,22 +16,23 @@
 .idea/
 
 # Example folder
-example/.dart_tool/
-example/.idea/
-example/android/
-example/ios/
-example/build/
-example/lib/generated_plugin_registrant.dart
-example/test/
-example/web/
-example/.flutter-plugins
-example/.flutter-plugins-dependencies
-example/.gitignore
-example/.metadata
-example/.packages
-example/example.iml
-example/pubspec.lock
-example/README.md
+# example/.dart_tool/
+# example/.idea/
+# example/android/
+# example/ios/
+# example/build/
+# example/lib/generated_plugin_registrant.dart
+# example/test/
+# example/web/
+# example/.flutter-plugins
+# example/.flutter-plugins-dependencies
+# example/.gitignore
+# example/.metadata
+# example/.packages
+# example/example.iml
+# example/pubspec.lock
+# example/README.md
+example/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
