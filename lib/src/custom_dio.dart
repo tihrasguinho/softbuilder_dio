@@ -5,9 +5,10 @@ import 'custom_dio_interceptor.dart';
 
 class CustomDio extends DioForNative {
   final String baseUrl;
+  final LocalStorage localStorage;
 
-  CustomDio({required this.baseUrl}) : super() {
+  CustomDio({required this.baseUrl, required this.localStorage}) : super() {
     options.baseUrl = baseUrl;
-    interceptors.add(CustomDioInterceptor(LocalStorage()));
+    interceptors.add(CustomDioInterceptor(localStorage));
   }
 }
